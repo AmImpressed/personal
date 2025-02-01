@@ -1,0 +1,114 @@
+<!-- 
+Author: Alexander Gallentine
+email : monreal@iastate.edu
+Date : January 27th, 2025  
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity02_CSS_selectors</title>
+    <style>
+        /* Add your CSS here */
+        h1 {
+            text-align: center;
+            color: gray;
+            text-transform: uppercase;
+        }
+
+        h2 {
+            font-weight: bold;
+            font-size: 1.5em;
+        }
+
+        p {
+            text-align: justify;
+            line-height: 1.6;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .abilities {
+            font-weight: bold;
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        .bio {
+            font-style: italic;
+            margin-top: 10px;
+        }
+
+        .superhero-title {
+            background-color: blue;
+        }
+
+        #wonder-woman {
+            border: 2px solid red;
+            text-shadow: 2px 2px 5px gray;
+            font-size: 1.8em;
+        }
+
+        #wonder-woman:hover {
+            border: 4px solid black;
+            font-size: 1.8em;
+        }
+
+        #spider-man {
+            border: 2px solid green;
+            text-shadow: 2px 2px 5px gray;
+            font-size: 1.8em;
+        }
+
+        #spider-man:hover {
+            border: 4px solid black;
+            text-shadow: 2px 2px 5px gray;
+        }
+
+        .details-btn {
+            background-color: orange;
+            border-radius: 12px;
+            border: none;
+            padding: 10px 20px;
+            color: white;
+            cursor: pointer;
+        }
+
+        .details-btn:hover {
+            background-color: darkorange;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>Superhero Profiles</h1>
+
+        <!-- <h2>Hero 1: Wonder Woman</h2>
+        <p class="superhero-title"> Wonder Woman</p> -->
+        <h2 id="wonder-woman" class="superhero-title">Hero 1: Wonder Woman</h2>
+
+        <!-- <p>Abilities: Super strength, Flight, Combat skills</p>
+        <p>Wonder Woman is a member of the Justice League.</p> -->
+
+        <p class="abilities">Abilities: Super strength, Flight, Combat skills</p>
+        <p class="bio">Wonder Woman is a member of the Justice League.</p>
+        <button class="details-btn">See More Details</button>
+
+        <!-- <h2>Hero 2: Spider-Man</h2>
+        <p class="superhero-title"> Spider Man</p> -->
+        <h2 id="spider-man" class="superhero-title">Hero 2: Spider Man</h2>
+
+        <!-- <p>Abilities: Wall climbing, Spider-sense, Super agility</p>
+        <p>Spider-Man is a neighborhood-friendly superhero from Queens.</p> -->
+
+        <p class="abilities">Abilities: Wall climbing, Spider-sense, Super agility</p>
+        <p class="bio">Spider-Man is a neighborhood-friendly superhero from Queens.</p>
+        <button class="details-btn">See More Details</button>
+
+    </div>
+</body>
+
+</html>
